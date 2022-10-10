@@ -17,7 +17,7 @@ function setup() {
   let myCanvas = createCanvas(cX, cY);
   myCanvas.parent("main-window");
 
-  background(0, 0, 0, 0);
+  background(0, 100, 0, 0);
 
   noFill();
   stroke(0, 255, 255);
@@ -32,12 +32,12 @@ function draw() {
     posX = random() * cX;
     posY = random() * cY;
     if ((Math.abs(posX - mouseX) < 40)) {
-      stroke(255, 0, 0);
+      stroke(255, 100, 0);
     } else {
-      stroke(0, 255, 255);
+      stroke(0, 100, 255);
     }
     rect(posX, posY, (random() * 20), (random() * 20));
-    stroke(255, 0, 0);
+    stroke(255, 100, 0);
     rect((mouseX + (random() * 20)), (mouseY + (random() * 20)), (random() * 50), (random() * 50));
     particleCount++;
   } else {
