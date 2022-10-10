@@ -1,3 +1,5 @@
 box-animation-experiment.js
 box-animation-experiment.css
 box-animation-experiment.html
+
+For more info, send an email to thefutureofouterspace@gmail.com.
