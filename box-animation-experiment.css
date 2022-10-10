@@ -1,0 +1,38 @@
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #main-window {
+    height: 90vh;
+    width: 90vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #slider-window {
+    z-index: 1;
+    position: absolute;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #main-window {
+      height: 90vw;
+      width: 90vw;
+      }
+  }
+  
